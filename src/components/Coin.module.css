@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ececec;
+    border-radius: 10px;
+    border: none;
+    width: 650px;
+    margin: 20px 50px;
+    padding: 10px;
+}
+span{
+    margin: 5px 10px;
+}
+.image{
+    width: 30px;
+    height: 30px;
+}
+.name{
+    color: #484848;
+    font-weight: bold;
+}
+.symbol{
+    color: #646464;
+}
+.currentPrice{
+    color: #333333;
+}
+.marketCap{
+    color: #333333;
+}
+.priceChange{
+
+}
+.greenPriceChange{
+    color: #008d00;
+}
+.redPriceChange{
+    color: #ea0202;
+}
