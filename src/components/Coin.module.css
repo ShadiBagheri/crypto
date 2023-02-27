@@ -1,40 +1,43 @@
-.container{
+.container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #ececec;
-    border-radius: 10px;
+    justify-content: center;
+    padding: 15px 40px;
+    font-size: 12px;
+    color: #212529;
+    border-bottom: 1px solid silver;
+}
+.container:last-child {
     border: none;
-    width: 650px;
-    margin: 20px 50px;
-    padding: 10px;
 }
-span{
-    margin: 5px 10px;
-}
-.image{
+.image {
     width: 30px;
-    height: 30px;
 }
-.name{
-    color: #484848;
+.name {
+    width: 140px;
+    font-size: 14px;
+    margin-left: 15px;
+    text-align: left;
+    font-weight: bold;
+    color: #333333;
+}
+.symbol {
+    text-align: left;
+    width: 100px;
+}
+.currentPrice {
+    text-align: left;
+    width: 100px;
+}
+.greenPriceChange,
+.redPriceChange {
+    width: 100px;
+    text-align: left;
     font-weight: bold;
 }
-.symbol{
-    color: #646464;
+.redPriceChange {
+    color: rgb(255, 38, 38);
 }
-.currentPrice{
-    color: #333333;
-}
-.marketCap{
-    color: #333333;
-}
-.priceChange{
-
-}
-.greenPriceChange{
-    color: #008d00;
-}
-.redPriceChange{
-    color: #ea0202;
+.greenPriceChange {
+    color: rgb(0, 204, 0);
 }

@@ -6,12 +6,11 @@
     margin-left: 600px;
     padding: 10px;
     width: 200px;
-    height: 20px;
+    height: 18px;
     border-radius: 10px;
-    border: 2px solid orange;
+    border: 3px solid orange;
     font-size: 1rem;
 }
-
 .container{
     display: flex;
     flex-direction: column;
